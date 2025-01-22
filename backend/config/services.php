@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'gpt' => [
+        'key' => env('GPT_KEY'),
+        'model' => env('GPT_MODEL', 'gpt-4o-mini'),
+    ],
 ];
